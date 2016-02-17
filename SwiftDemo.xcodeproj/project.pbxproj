@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		150325FF1C7481FA00ECB938 /* autolayoutAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150325FD1C7481FA00ECB938 /* autolayoutAnimationViewController.swift */; };
+		150326001C7481FA00ECB938 /* autolayoutAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 150325FE1C7481FA00ECB938 /* autolayoutAnimationViewController.xib */; };
+		152F9F5D1C7319710052A91C /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152F9F5C1C7319710052A91C /* Options.swift */; };
 		4BD506951C68D9DB00C2A9D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD506941C68D9DB00C2A9D7 /* AppDelegate.swift */; };
 		4BD506971C68D9DB00C2A9D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD506961C68D9DB00C2A9D7 /* ViewController.swift */; };
 		4BD5069A1C68D9DB00C2A9D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD506981C68D9DB00C2A9D7 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		150325FD1C7481FA00ECB938 /* autolayoutAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = autolayoutAnimationViewController.swift; sourceTree = "<group>"; };
+		150325FE1C7481FA00ECB938 /* autolayoutAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = autolayoutAnimationViewController.xib; sourceTree = "<group>"; };
+		152F9F5C1C7319710052A91C /* Options.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
 		4BD506911C68D9DB00C2A9D7 /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD506941C68D9DB00C2A9D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BD506961C68D9DB00C2A9D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +109,9 @@
 				4BD5069B1C68D9DB00C2A9D7 /* Assets.xcassets */,
 				4BD5069D1C68D9DB00C2A9D7 /* LaunchScreen.storyboard */,
 				4BD506A01C68D9DB00C2A9D7 /* Info.plist */,
+				152F9F5C1C7319710052A91C /* Options.swift */,
+				150325FD1C7481FA00ECB938 /* autolayoutAnimationViewController.swift */,
+				150325FE1C7481FA00ECB938 /* autolayoutAnimationViewController.xib */,
 			);
 			path = SwiftDemo;
 			sourceTree = "<group>";
@@ -229,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150326001C7481FA00ECB938 /* autolayoutAnimationViewController.xib in Resources */,
 				4BD5069F1C68D9DB00C2A9D7 /* LaunchScreen.storyboard in Resources */,
 				4BD5069C1C68D9DB00C2A9D7 /* Assets.xcassets in Resources */,
 				4BD5069A1C68D9DB00C2A9D7 /* Main.storyboard in Resources */,
@@ -256,7 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150325FF1C7481FA00ECB938 /* autolayoutAnimationViewController.swift in Sources */,
 				4BD506971C68D9DB00C2A9D7 /* ViewController.swift in Sources */,
+				152F9F5D1C7319710052A91C /* Options.swift in Sources */,
 				4BD506951C68D9DB00C2A9D7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +494,7 @@
 				4BD506BB1C68D9DB00C2A9D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BD506BC1C68D9DB00C2A9D7 /* Build configuration list for PBXNativeTarget "SwiftDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +503,7 @@
 				4BD506BE1C68D9DB00C2A9D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4BD506BF1C68D9DB00C2A9D7 /* Build configuration list for PBXNativeTarget "SwiftDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +512,7 @@
 				4BD506C11C68D9DB00C2A9D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

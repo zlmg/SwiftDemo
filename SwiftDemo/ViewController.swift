@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.presentViewController(autolayoutAnimationViewController() , animated: true, completion: nil)
         // Do any additional setup after loading the view, typically from a nib.
         let label = "The width is "
         let width = 94
