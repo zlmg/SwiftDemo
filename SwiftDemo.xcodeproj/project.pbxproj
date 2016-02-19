@@ -10,6 +10,7 @@
 		150325FF1C7481FA00ECB938 /* autolayoutAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150325FD1C7481FA00ECB938 /* autolayoutAnimationViewController.swift */; };
 		150326001C7481FA00ECB938 /* autolayoutAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 150325FE1C7481FA00ECB938 /* autolayoutAnimationViewController.xib */; };
 		152F9F5D1C7319710052A91C /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = 152F9F5C1C7319710052A91C /* Options.swift */; };
+		155673E71C76F8B200872B6B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155673E61C76F8B200872B6B /* BaseViewController.swift */; };
 		4BD506951C68D9DB00C2A9D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD506941C68D9DB00C2A9D7 /* AppDelegate.swift */; };
 		4BD506971C68D9DB00C2A9D7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BD506961C68D9DB00C2A9D7 /* ViewController.swift */; };
 		4BD5069A1C68D9DB00C2A9D7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BD506981C68D9DB00C2A9D7 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		150325FD1C7481FA00ECB938 /* autolayoutAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = autolayoutAnimationViewController.swift; sourceTree = "<group>"; };
 		150325FE1C7481FA00ECB938 /* autolayoutAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = autolayoutAnimationViewController.xib; sourceTree = "<group>"; };
 		152F9F5C1C7319710052A91C /* Options.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
+		155673E61C76F8B200872B6B /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		4BD506911C68D9DB00C2A9D7 /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BD506941C68D9DB00C2A9D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BD506961C68D9DB00C2A9D7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 				152F9F5C1C7319710052A91C /* Options.swift */,
 				150325FD1C7481FA00ECB938 /* autolayoutAnimationViewController.swift */,
 				150325FE1C7481FA00ECB938 /* autolayoutAnimationViewController.xib */,
+				155673E61C76F8B200872B6B /* BaseViewController.swift */,
 			);
 			path = SwiftDemo;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				155673E71C76F8B200872B6B /* BaseViewController.swift in Sources */,
 				150325FF1C7481FA00ECB938 /* autolayoutAnimationViewController.swift in Sources */,
 				4BD506971C68D9DB00C2A9D7 /* ViewController.swift in Sources */,
 				152F9F5D1C7319710052A91C /* Options.swift in Sources */,

@@ -18,7 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         self.window?.backgroundColor = UIColor.whiteColor()
         self.window?.frame = UIScreen.mainScreen().bounds
-        self.window?.rootViewController = autolayoutAnimationViewController()
+        let nav = UINavigationController.init(rootViewController: autolayoutAnimationViewController())
+        self.window?.rootViewController = nav
         self.window?.makeKeyAndVisible()
         return true
     }

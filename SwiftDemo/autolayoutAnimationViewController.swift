@@ -19,6 +19,8 @@ class autolayoutAnimationViewController: UIViewController {
         self.view.backgroundColor = UIColor.blueColor()
         self.testButton.backgroundColor = UIColor.redColor()
         // Do any additional setup after loading the view.
+        
+        self.navigationController?.pushViewController(BaseViewController(), animated: true)
     }
 
     override func didReceiveMemoryWarning() {
